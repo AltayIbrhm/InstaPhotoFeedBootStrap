@@ -3,6 +3,7 @@
     padding-left: 30%;
     margin-top: 5px;
     padding-top: 2px;
+    
  
   }
 
@@ -11,13 +12,34 @@
     height: 500px;
   }
 
-  .picture_head{
-    text-align: left;
+  .post_header{
+
+    display: flex;
   }
-  .date{
+   span.post_title{
+    text-align: left;
+   font-weight: bold;
+   width: 199px;
+  }
+
+  span.post_date{
     text-align: right;
-    padding-bottom: 10px;
+    padding-left: 250px;
+
   }
-  .likes{
+   
+.likes{
     text-align: left;
-  }
+}
+
+.post_likes{
+    display: flex;
+    text-align: left;
+}
+
+.post_comment{
+    display: flex;
+    text-align: left;
+}
+
+
