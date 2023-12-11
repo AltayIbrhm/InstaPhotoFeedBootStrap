@@ -1,0 +1,23 @@
+.square_1 {
+    display: flex;
+    padding-left: 30%;
+    margin-top: 5px;
+    padding-top: 2px;
+ 
+  }
+
+  .square{
+    width: 500px;
+    height: 500px;
+  }
+
+  .picture_head{
+    text-align: left;
+  }
+  .date{
+    text-align: right;
+    padding-bottom: 10px;
+  }
+  .likes{
+    text-align: left;
+  }
